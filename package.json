@@ -1,0 +1,26 @@
+{
+  "name": "formacao_javascript_developer__dio",
+  "version": "1.0.0",
+  "description": "Estudos de JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13runoDaniel/formacao_javascript_developer__dio.git"
+  },
+  "keywords": [],
+  "author": "Bruno Daniel",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/13runoDaniel/formacao_javascript_developer__dio/issues"
+  },
+  "homepage": "https://github.com/13runoDaniel/formacao_javascript_developer__dio#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.12.0",
+    "globals": "^17.13.0"
+  }
+}
