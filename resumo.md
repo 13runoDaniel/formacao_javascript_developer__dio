@@ -73,3 +73,17 @@ Estruturas avançadas para modelar dados do mundo real, agrupar comportamentos e
 * **A Palavra-Chave `this`:** Referência interna ao objeto atual que está a executar o método, permitindo aceder às suas propriedades.
 * **Classes (`class`):** Moldes genéricos usados para instanciar múltiplos objetos com a mesma estrutura (ex: `class Ninja { ... }` e `const naruto = new Ninja();`).
 * **Construtores (`constructor`):** Método especial executado automaticamente ao criar uma instância com o operador `new`, utilizado para inicializar propriedades e processar dados iniciais (como o ano de nascimento ou cálculo de IMC).
+
+---
+
+## 8. Arrays e Estruturas de Repetição (`For`)
+Estruturas para armazenamento de coleções ordenadas de dados e ciclos para automação de tarefas repetitivas.
+
+* **Arrays (Vetores):** Listas ordenadas de elementos indexados numericamente a partir de `0` (ex: `const ninjas = [ 'Naruto', 'Sasuke' ]`).
+* **Métodos de Manipulação de Arrays:**
+  * `.push()`: Adiciona novos elementos ao final do array.
+  * `.pop()`: Remove o último elemento do array.
+  * `.shift()`: Remove o primeiro elemento do array.
+  * `.length`: Propriedade que retorna a quantidade de elementos presentes no array.
+* **Estrutura de Repetição (`for`):** Bloco utilizado para executar código repetidas vezes com base numa inicialização, condição e incremento (ex: percorrer itens de um array ou calcular médias).
+* **Ciclos Aninhados (Nested Loops):** Utilização de um ciclo `for` dentro de outro para processamento cruzado de dados, como a geração de tabelas completas de multiplicação (tabuadas).
