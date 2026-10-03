@@ -60,3 +60,16 @@ Blocos de código reutilizáveis projetados para realizar uma tarefa específica
 * **Modularização:** Prática de dividir o código em pequenas funções especializadas (ex: separar o cálculo matemático da lógica de exibição ou classificação, como no cálculo de IMC).
 * **Funções como Cidadãs de Primeira Classe (First-Class Functions):** Em JavaScript, as funções são tratadas como qualquer outro tipo de dado. Podem ser atribuídas a variáveis, passadas como parâmetros ou reatribuídas (ex: `const minhaVariavel = minhaFuncao;`).
 * **Funções Imediatamente Invocadas (IIFE - Immediately Invoked Function Expression):** Funções anónimas criadas e executadas imediatamente no mesmo momento em que são definidas, encapsuladas entre parênteses e seguidas por `();`. Muito úteis para isolar o escopo de variáveis.
+
+---
+
+## 7. Objetos e Classes (POO)
+Estruturas avançadas para modelar dados do mundo real, agrupar comportamentos e reutilizar moldes de código.
+
+* **Criação de Objetos:** Coleções dinâmicas de chaves e valores delimitadas por chavetas (ex: `const obj = { nome: 'Perry', idade: 8 }`).
+* **Manipulação de Propriedades:** Capacidade de adicionar (`objeto.peso = '4 kg'`) ou apagar (`delete objeto.especie`) propriedades dinamicamente.
+* **Notação de Ponto e Colchetes:** Acesso a propriedades via ponto (`objeto.nome`) ou colchetes (`objeto['nome']`).
+* **Métodos:** Funções associadas a um objeto que definem o seu comportamento ou ações.
+* **A Palavra-Chave `this`:** Referência interna ao objeto atual que está a executar o método, permitindo aceder às suas propriedades.
+* **Classes (`class`):** Moldes genéricos usados para instanciar múltiplos objetos com a mesma estrutura (ex: `class Ninja { ... }` e `const naruto = new Ninja();`).
+* **Construtores (`constructor`):** Método especial executado automaticamente ao criar uma instância com o operador `new`, utilizado para inicializar propriedades e processar dados iniciais (como o ano de nascimento ou cálculo de IMC).
