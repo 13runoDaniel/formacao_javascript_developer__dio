@@ -38,6 +38,7 @@ Símbolos especiais usados para realizar operações com os dados das variáveis
 
 ## 4. Métodos
 * **`.toFixed()`:** Função interna associada a um tipo de dado (neste caso, números) que executa uma operação específica (ex: formatar casas decimais, `valor.toFixed(2)`).
+* **`Math.pow()`:** Objeto matemático global com métodos úteis, sendo o `.pow(base, expoente)` utilizado para calcular a potenciação (ex: calcular a altura ao quadrado para o IMC: `Math.pow(altura, 2)`).
 
 ---
 
@@ -47,3 +48,15 @@ Blocos de controlo de fluxo que permitem executar diferentes blocos de código c
 * **`if`:** Executa o bloco de código se a condição inicial for verdadeira.
 * **`else if`:** Permite testar novas condições caso a anterior tenha falhado.
 * **`else`:** Executa um bloco de código alternativo caso nenhuma das condições anteriores seja verdadeira.
+
+---
+
+## 6. Funções
+Blocos de código reutilizáveis projetados para realizar uma tarefa específica, permitindo modularizar o código, evitar repetições e organizar a lógica.
+
+* **Declaração Básica:** Definidas com a palavra-chave `function`, seguidas de um nome, parâmetros entre parênteses e o bloco de código entre chavetas (ex: `function olaMundo() { ... }`). São executadas ao serem chamadas (invocadas), como `olaMundo();`.
+* **Parâmetros e Argumentos:** Valores passados para dentro da função através dos parênteses para serem utilizados na sua execução interna.
+* **Retorno de Valores (`return`):** Permite que a função devolva um resultado processado para quem a chamou, encerrando a execução da mesma.
+* **Modularização:** Prática de dividir o código em pequenas funções especializadas (ex: separar o cálculo matemático da lógica de exibição ou classificação, como no cálculo de IMC).
+* **Funções como Cidadãs de Primeira Classe (First-Class Functions):** Em JavaScript, as funções são tratadas como qualquer outro tipo de dado. Podem ser atribuídas a variáveis, passadas como parâmetros ou reatribuídas (ex: `const minhaVariavel = minhaFuncao;`).
+* **Funções Imediatamente Invocadas (IIFE - Immediately Invoked Function Expression):** Funções anónimas criadas e executadas imediatamente no mesmo momento em que são definidas, encapsuladas entre parênteses e seguidas por `();`. Muito úteis para isolar o escopo de variáveis.
