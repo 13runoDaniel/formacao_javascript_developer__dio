@@ -87,3 +87,11 @@ Estruturas para armazenamento de coleções ordenadas de dados e ciclos para aut
   * `.length`: Propriedade que retorna a quantidade de elementos presentes no array.
 * **Estrutura de Repetição (`for`):** Bloco utilizado para executar código repetidas vezes com base numa inicialização, condição e incremento (ex: percorrer itens de um array ou calcular médias).
 * **Ciclos Aninhados (Nested Loops):** Utilização de um ciclo `for` dentro de outro para processamento cruzado de dados, como a geração de tabelas completas de multiplicação (tabuadas).
+
+---
+
+## 9. Arquitetura Modular (`Import` e `Export` - ES Modules)
+Prática de dividir o código em múltiplos ficheiros para organizar melhor o projeto, separar responsabilidades e reutilizar funções entre diferentes módulos.
+
+* **`export`:** Permite disponibilizar variáveis, funções ou objetos de um ficheiro para que possam ser utilizados noutros locais (ex: `export { gets, print };`).
+* **`import`:** Permite carregar e utilizar funcionalidades exportadas de outros ficheiros no contexto atual (ex: `import { gets, print } from './exportacao.js';`).
