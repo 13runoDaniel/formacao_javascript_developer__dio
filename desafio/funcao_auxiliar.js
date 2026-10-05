@@ -12,3 +12,14 @@ export function gets() {
     
     return mediaEscolar;
 }
+
+const numerosInformados = [ 5, 3, 4, 1, 10, 8 ];
+
+let indexNumeros = 0;
+
+export function gets1() {
+    const numeros = numerosInformados[ indexNumeros ];
+    indexNumeros++;
+
+    return numeros;
+}
