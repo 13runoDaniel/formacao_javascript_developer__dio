@@ -23,3 +23,13 @@ export function gets1() {
 
     return numeros;
 }
+
+const entradas = [ 2000, 250 ];
+let indexSalario = 0;
+
+export function gets2() {
+    const valor = entradas[ indexSalario ];
+    indexSalario++;
+
+    return valor;
+}
